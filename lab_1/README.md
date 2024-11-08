@@ -30,5 +30,66 @@
 
 Пример работы эрозии бинарного изображения с ядром 3 на 3 изображен ниже.
 
-![Alt text](../images/erodbin.gif)
+![Alt text](../images/lab_1/erodbin.png)
 
+Для цветного изображения или для оттенков серого вычисляется локальный минимум по площади заданного ядра.
+
+Когда ядро сканируется по изображению, мы вычисляем минимальное значение пикселя, перекрываемое ядром и заменяем пиксель изображения под точкой привязки на это минимальное значение.
+
+![Alt text](../images/lab_1/formula.png)
+
+# Результаты работы
+
+- Бинарное изображение
+
+Original White-black
+
+![Alt text](../images/lab_1/original_image.png)
+
+Erosion cv2 White-black
+
+![Alt text](../images/lab_1/image_cv.png)
+
+Erosion our algorithm White-black
+
+![Alt text](../images/lab_1/image_our_func.png)
+
+- Изображение в серых тонах
+
+Original Grey
+
+![Alt text](../images/lab_1/original_grey.png)
+
+Erosion cv2 Grey
+
+![Alt text](../images/lab_1/grey_cv.png)
+
+Erosion our algorithm Grey
+
+![Alt text](../images/lab_1/grey_our_func.png)
+
+- Цветное изображение
+
+Original
+
+![Alt text](../images/lab_1/color_original.png)
+
+Erosion cv2
+
+![Alt text](../images/lab_1/color_cv.png)
+
+Erosion our algorithm
+
+![Alt text](../images/lab_1/color_our_func.png)
+
+При сравнении работы Эрозии на изображениях выяснилось, что полученные изображения совпадают с большой точностью 
+
+![Alt text](../images/lab_1/comp_results.png)
+
+При оценке времени выполнения двух алгоритмов видно, что скорость реализации из OpenCV быстрее на несколько порядков
+
+![Alt text](../images/lab_1/comp_time.png)
+
+# Вывод
+
+Был реализован алгоритм эрозии c ядром 3*3. Также было произведено сравнение с реализацией алгоритма из библиотеки OpenCV. Полученные изображения от двух алгоритмов идентичны с большой точностью. Скорость выполнения алгоритма OpenCV быстрее на несколько порядков.
