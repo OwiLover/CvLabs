@@ -1,4 +1,4 @@
-команда: 13  
+# Команда: 13  
 Участники: Цыгляев Владислав, Габдрахманов Рустам, Лебедев Иван
 
 Вариант: 13 mod 7 + 1 = 7  
@@ -40,45 +40,45 @@
 
 # Результаты работы
 
-- Бинарное изображение
+Бинарное изображение
 
-Original White-black
+- Original White-black
 
 ![Alt text](../images/lab_1/original_image.png)
 
-Erosion cv2 White-black
+- Erosion cv2 White-black
 
 ![Alt text](../images/lab_1/image_cv.png)
 
-Erosion our algorithm White-black
+- Erosion our algorithm White-black
 
 ![Alt text](../images/lab_1/image_our_func.png)
 
-- Изображение в серых тонах
+Изображение в серых тонах
 
-Original Grey
+- Original Grey
 
 ![Alt text](../images/lab_1/original_grey.png)
 
-Erosion cv2 Grey
+- Erosion cv2 Grey
 
 ![Alt text](../images/lab_1/grey_cv.png)
 
-Erosion our algorithm Grey
+- Erosion our algorithm Grey
 
 ![Alt text](../images/lab_1/grey_our_func.png)
 
-- Цветное изображение
+Цветное изображение
 
-Original
+- Original
 
 ![Alt text](../images/lab_1/color_original.png)
 
-Erosion cv2
+- Erosion cv2
 
 ![Alt text](../images/lab_1/color_cv.png)
 
-Erosion our algorithm
+- Erosion our algorithm
 
 ![Alt text](../images/lab_1/color_our_func.png)
 
